@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Width, Height, Margin, dan Padding</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+        <style media="screen">
+            body{
+                background-color: white;
+            }
+            div.container{
+                margin: 0 auto;
+                width: 100%;
+            }
+            header{
+                width: 100%;
+                height: 100px;
+                background-color: #d90000;
+                color: white;
+            }
+            nav{
+                width: 20%;
+                height: 1000px;
+                background-color: #0a0029;
+                float: left;
+                color: white;
+            }
+            .menu{
+                text-align: left;
+                margin-left: 10px;
+            }
+            div.content{
+                width: 80%;
+                height: 1000px;
+                background-color: #ECEFA4;
+                float: right;
+                color: black;
+                font-family: 'Prompt', sans-serif;
+            }
+            footer{
+                align: center;
+                width: 100%;
+                height: 47px;
+                color: #ffffff;
+                background-color: #001a80;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+            }
+            .isi{
+                margin-left: 50px;
+            }
+            .what{
+                margin-left: 20px;
+            }
+            .column{
+                margin: 0px auto;
+                width: 70%;
+                height: 400px;
+                column-count: 2;
+                column-gap: 40px;
+                column-rule-style: solid;
+                column-rule-width: 2px;
+                column-rule-color: #000;
+
+            }
+            .judul{
+                font-family: 'Bebas Neue', cursive;
+                font-size: 34px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="judul" align="center"><br>Khikyferdhian22.com</h1>
+            </header>
+            <nav>
+                <h2 class="menu"> > Biodata Diri</h2>
+            </nav>
+
+            <div class="content">
+                <h2 align="center">Biodata</h2><br>
+                <div class="column">
+                    <p class="what" align="left"><b>Nama Lengkap </b><p class="isi">: Khiky Ferdhian Prathama</p></p>
+                    <p class="what" align="left"><b>Nama Panggilan </b><p class="isi">: Khiky/Dhian</p></p>
+                    <p class="what" align="left"><b>TTL </b><p class="isi">: Malang, 14 September 2004</p></p>
+                    <p class="what" align="left"><b>Gender </b><p class="isi">: Laki-Laki ♂</p></p>
+                    <p class="what" align="left"><b>Tinggi Badan </b><p class="isi">: 176 Cm</p></p>
+                    <p class="what" align="left"><b>Berat Badan </b><p class="isi">: 72 Kg</p></p>
+                    <p class="what" align="left"><b>Status </b><p class="isi">: Pelajar</p></p>
+                    <p class="what" align="left"><b>Alamat </b><p class="isi">: Jl. Sekolahan, Desa Sengguruh, Kepanjen, Kabupaten Malang</p></p>
+                    <p class="what" align="left"><b>NISN </b><p class="isi">: 0044719891</p></p>
+                </div>
+                <div class="support">
+                    <hr style="border: 1px solid;" width="85%" align="center">
+                </div>
+                <h2 class="animate__animated animate__swing" align="center">Galery</h2><br>
+                <div class="animate__animated animate__swing" align="center" style="margin-left: 55px;">
+                    <div style="margin: 20px; float: left;"><img src="galery/img1.png" width="200px" height="200px" alt="image 1"></div>
+                    <div style="margin: 20px; float: left;"><img src="galery/img2.jpeg" width="200px" height="200px" alt="image 2"></div>
+                    <div style="margin: 20px; float: left;"><img src="galery/img3.jpeg" width="200px" height="200px" alt="image 3"></div>
+                    <div style="margin: 20px; float: left;"><img src="galery/img4.png" width="200px" height="200px" alt="image 4"></div>
+                </div>
+            </div>
+            <footer>
+                <h5 style="margin-bottom: 10px;" align="center"><b>Instagram : </b>@fkhiky_ <b>     |     Github : </b>Renshinnn    |    copyright © 2021 Khiky Ferdhian</h5>
+
+            </footer>
+
+        </div>
+    </body>
+</html>
