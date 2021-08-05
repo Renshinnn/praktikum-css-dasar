@@ -34,7 +34,7 @@ halaman web
 <li>background-position → menentukan posisi background.
 <li>background-position → menentukan posisi background.
 </ul></p><br><hr>
-<a href="https://github.com/Renshinnn/pratikum-css-dasar/blob/master/latihan2.html"><h2><b>CSS Width, Height, Margin, dan Padding
+<a href="https://github.com/Renshinnn/praktikum-css-dasar/blob/master/latihan1.html"><h2><b>CSS Width, Height, Margin, dan Padding
 </b></h2></a><br>
 <img src="capture/lat2.png" width="70%">
 <p>Dalam menentukan ukuran pada sebuah elemen, dapat dengan menggunakan 
